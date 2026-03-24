@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Olaoluwa Ebenezer | Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<header>
+
+<nav class="navbar">
+
+<h2 class="">olaoluwa</h2>
+
+<div class="menu-icon" onclick="toggleMenu()">
+<i class="fa fa-bars"></i>
+</div>
+
+<ul class="nav-links" id="menu">
+
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+<button id="modeToggle">🌙</button>
+
+</nav>
+
+</header>
+
+
+<!-- HERO -->
+
+<section class="hero" id="home">
+
+<h1>Hi I'm <span>Olaoluwa Ebenezer</span></h1>
+
+<h2>I am a <span id="typing"></span></h2>
+
+<p>Web Developer & Computer science Student</p>
+
+<a href="#projects" class="btn">View Projects</a>
+
+</section>
+
+
+<!-- ABOUT -->
+
+<section id="about">
+
+<h2>About Me</h2>
+
+<p>
+I am a passionate web developer and Computer science student.
+I enjoy building modern responsive websites using HTML, CSS and JavaScript.
+</p>
+
+</section>
+
+
+<!-- SKILLS -->
+
+<section id="skills">
+
+<h2>Skills</h2>
+
+<div class="skill">
+
+<p>HTML</p>
+
+<div class="progress">
+<div class="bar html"></div>
+</div>
+
+</div>
+
+<div class="skill">
+
+<p>CSS</p>
+
+<div class="progress">
+<div class="bar css"></div>
+</div>
+
+</div>
+
+<div class="skill">
+
+<p>JavaScript</p>
+
+<div class="progress">
+<div class="bar js"></div>
+</div>
+
+</div>
+
+</section>
+
+
+<!-- PROJECTS -->
+
+<section id="projects">
+
+<h2>Projects</h2>
+
+<div class="filter-buttons">
+
+<button onclick="filterProject('all')">All</button>
+<button onclick="filterProject('web')">Web</button>
+<button onclick="filterProject('app')">App</button>
+
+</div>
+
+<div class="projects">
+
+<div class="project web">
+<h3>Portfolio Website</h3>
+<p>Responsive personal portfolio</p>
+</div>
+
+<div class="project app">
+<h3>Calculator App</h3>
+<p>JavaScript calculator</p>
+</div>
+
+<div class="project web">
+<h3>Shoe Store Website</h3>
+<p>Product gallery website</p>
+</div>
+
+</div>
+
+</section>
+
+
+<!-- SERVICES -->
+
+<section id="services">
+
+<h2>Services</h2>
+
+<div class="services">
+
+<div class="service-card">
+<i class="fa fa-code"></i>
+<h3>Web Development</h3>
+<p>Modern responsive websites</p>
+</div>
+
+<div class="service-card">
+<i class="fa fa-paint-brush"></i>
+<h3>Web Design</h3>
+<p>Clean UI design</p>
+</div>
+
+<div class="service-card">
+<i class="fa fa-mobile"></i>
+<h3>Responsive Design</h3>
+<p>Mobile friendly websites</p>
+</div>
+
+</div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section id="contact">
+
+<h2>Contact Me</h2>
+
+<form>
+
+<input type="text" placeholder="Your Name" required>
+
+<input type="email" placeholder="Your Email" required>
+
+<textarea placeholder="Your Message"></textarea>
+
+<button type="submit">Send Message</button>
+
+</form>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+<p>© 2026 Olaoluwa Ebenezer</p>
+
+<div class="socials">
+
+<i class="fab fa-github"></i>
+<i class="fab fa-linkedin"></i>
+<i class="fab fa-twitter"> olaoluwa ebenezer </i>
+<i class="fab fa-tiktok"> frosty </i>
+<i class="fab fa-instagram"> ola frosty </i>
+<i class="fab fa-telegram"> olafrosty </i>
+
+</div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
